@@ -14,6 +14,7 @@ namespace CrazyCalculatorLibrary
             resultItem.Result = c;
             resultItem.LeftOperator = a;
             resultItem.SetRightOperator(b);
+            //WHAT: seems misprint
             resultItem.OperationType = "Addddition";
             resultItem.FormattedResult = c.ToString("D5");
             return resultItem;

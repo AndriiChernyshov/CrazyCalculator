@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{4D97E778-B6D0-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5B551F5F-44EC-4B8B-B3EE-5546B571E01E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyCalculatorCore", "src\Core\CrazyCalculatorCore\CrazyCalculatorCore.csproj", "{D418132C-359F-48D6-AD68-5CB80D453AE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyCalculatorCore", "src\Core\CrazyCalculatorCore\CrazyCalculatorCore.csproj", "{D418132C-359F-48D6-AD68-5CB80D453AE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyConsole", "src\CrazyConsole\CrazyConsole.csproj", "{FF9FFE65-62BD-4116-B9D2-D7375AC86849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyConsole", "src\CrazyConsole\CrazyConsole.csproj", "{FF9FFE65-62BD-4116-B9D2-D7375AC86849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyForm", "src\CrazyForm\CrazyForm.csproj", "{0A2F2DCB-36AC-48FF-A204-215BD1EF8789}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyForm", "src\CrazyForm\CrazyForm.csproj", "{0A2F2DCB-36AC-48FF-A204-215BD1EF8789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyCalculatorLibrary", "src\CrazyCalculatorLibrary\CrazyCalculatorLibrary.csproj", "{287D44F5-6E3A-4EC7-810E-261B5BB85BC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrazyCalculatorLibrary", "src\CrazyCalculatorLibrary\CrazyCalculatorLibrary.csproj", "{287D44F5-6E3A-4EC7-810E-261B5BB85BC5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{184034D3-576D-4102-913B-533469C22C92}"
 EndProject
@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		NuGet.config = NuGet.config
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{B40CA02C-C3FC-4790-A622-A85BD67A2277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyStuff", "src\Bus\CrazyStuff\CrazyStuff.csproj", "{B7016AEB-38F0-47CD-B978-FA7967B3C726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +52,10 @@ Global
 		{287D44F5-6E3A-4EC7-810E-261B5BB85BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{287D44F5-6E3A-4EC7-810E-261B5BB85BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{287D44F5-6E3A-4EC7-810E-261B5BB85BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7016AEB-38F0-47CD-B978-FA7967B3C726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7016AEB-38F0-47CD-B978-FA7967B3C726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7016AEB-38F0-47CD-B978-FA7967B3C726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7016AEB-38F0-47CD-B978-FA7967B3C726}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,8 @@ Global
 		{FF9FFE65-62BD-4116-B9D2-D7375AC86849} = {4D97E778-B6D0-4C32-B009-D874966BE4F0}
 		{0A2F2DCB-36AC-48FF-A204-215BD1EF8789} = {4D97E778-B6D0-4C32-B009-D874966BE4F0}
 		{287D44F5-6E3A-4EC7-810E-261B5BB85BC5} = {2353F7CB-60E1-4284-96BD-E330CC58C794}
+		{B40CA02C-C3FC-4790-A622-A85BD67A2277} = {2353F7CB-60E1-4284-96BD-E330CC58C794}
+		{B7016AEB-38F0-47CD-B978-FA7967B3C726} = {B40CA02C-C3FC-4790-A622-A85BD67A2277}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773EBA1D-C6DB-466B-85AC-C7F049F3912D}
